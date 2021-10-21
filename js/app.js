@@ -36,4 +36,7 @@ $(function() {
 		}, 500);
 	});
 	
+	$('#button').addEventListener('click', function () {
+		$('#blackout').hidden = false;
+	});
 });
