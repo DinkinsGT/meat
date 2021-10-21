@@ -215,7 +215,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #test {
 	width: 40vw;
+	right: 30vw;
 	height: 80vh;
+	top: 10vh;
 	border-radius: 10px;
 	background-color: white;
 	position: fixed;
