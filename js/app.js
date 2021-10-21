@@ -39,4 +39,13 @@ $(function() {
 	$('#button')[0].addEventListener('click', function () {
 		$('#blackout')[0].hidden = false;
 	});
+
+	/* menu nav toggle */
+	$("#nav_toggle").on("click", function(event) {
+		event.preventDefault();
+
+		$(this).toggleClass("active");
+		$("#nav").toggleClass("active");
+	});
+
 });
