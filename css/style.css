@@ -212,3 +212,12 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100vh;
 	background-color: rgba(0, 0, 0, .4);
 }
+
+#test {
+	width: 40vw;
+	height: 80vh;
+	border-radius: 10px;
+	background-color: white;
+	position: fixed;
+	z-index: 5;
+}
