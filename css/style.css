@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 1000;
+	z-index: 2;
 	padding-top: 30px;
 }
 
@@ -204,10 +204,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #blackout {
-	position: absolute;
+	z-index: 3;
+	position: fixed;
 	top: 0;
 	right: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: rgba(0, 0, 0, .3);
+	background-color: rgba(0, 0, 0, .4);
 }
