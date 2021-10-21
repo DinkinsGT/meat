@@ -170,20 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 	transition: background 0.2s linear;
 }
 
-.nav_toggle:active .nav-toggle_item {
-	background: none;
-}
-
-.nav_toggle:active .nav-toggle_item:before {
-	transform-origin: left top;
-	transform: rotate(45deg) translate3d(0px, -3px, 0);
-}
-
-.nav_toggle:active .nav-toggle_item:after {
-	transform-origin: left bottom;
-	transform: rotate(-45deg) translate3d(0px, 3px, 0);
-}
-
 .nav-toggle_item:before,
 .nav-toggle_item:after {
 	content:"";
