@@ -144,17 +144,147 @@
 			<section class="section">
 				<div class="container">
 					<div class="section_header">
-						<a class="button" id="button">Пройти тест</a>
+						<a href="#modal" class="button" id="button">Пройти тест</a>
 					</div>
 				</div>
 			</section>
+			
+		</div>
 
-			<div id="blackout" hidden>
-				<div id="test">
-					<button id="close-test">×</button>
+		<div class="modal" id="modal">
+			<a href="#header" class="modal-area"></a>
+			<div class="modal-window">
+				<div class="modal-title">ТЕСТ</div>
+
+				<form>
+
+				<!-- question 1-->
+				<div class="modal-subtitle">Вопрос №1 </div>
+				<div class="modal-question">Сколько жира содержится в говядине?</div>
+				<div class="modal-text">
+
+					<div>
+					<input id="l1" type="radio" name="choice1" value="1">
+					<label for="ch1">15г</label>
+					</div>
+	
+					<div>
+					<input id="l0" type="radio" name="choice1" value="0">
+					<label for="ch2">14г</label>
+					</div>
+	
+					<div>
+					<input id="l0" type="radio" name="choice1" value="0">
+					<label for="ch3">21г</label>
+					</div>
+
 				</div>
+
+				<!-- question 2-->
+				<div class="modal-subtitle">Вопрос №2 </div>
+				<div class="modal-question">Из какого мяса делают бифштекс?</div>
+				<div class="modal-text">
+
+					<div>
+					<input type="radio" name="choice2" value="0">
+					<label for="ch1">Из Баранины</label>
+					</div>
+	
+					<div>
+					<input type="radio" name="choice2" value="1">
+					<label for="ch2">Из говядины</label>
+					</div>
+	
+					<div>
+					<input type="radio" name="choice2" value="0">
+					<label for="ch3">Из свинины</label>
+					</div>
+
+				</div>
+
+				<!-- question 3-->
+				<div class="modal-subtitle">Вопрос №3 </div>
+				<div class="modal-question">Сколоко грамм белков содержится в свинине?</div>
+				<div class="modal-text">
+
+					<div>
+					<input type="radio" name="choice3" value="1">
+					<label for="ch1">27г</label>
+					</div>
+	
+					<div>
+					<input type="radio" name="choice33" value="0">
+					<label for="ch2">25г</label>
+					</div>
+
+					<div>
+					<input type="radio" name="choice3" value="0">
+					<label for="ch3">26г</label>
+					</div>
+
+				</div>
+
+				<!-- question 4-->
+				<div class="modal-subtitle">Вопрос №4 </div>
+				<div class="modal-question">Сколько калорий содержит баранина?</div>
+				<div class="modal-text">
+
+					<div>
+					<input type="radio" name="choice4" value="0">
+					<label for="ch1">250 кал.</label>
+					</div>
+
+					<div>
+					<input type="radio" name="choice4" value="0">
+					<label for="ch2">242 кал.</label>
+					</div>
+
+					<div>
+					<input type="radio" name="choice4" value="1">
+					<label for="ch3">294 кал.</label>
+					</div>
+
+				</div>
+
+				<!-- question 5-->
+				<div class="modal-subtitle">Вопрос №5 </div>
+				<div class="modal-question">В каком мясе содержится 80мг холестерина?</div>
+				<div class="modal-text">
+
+					<div>
+					<input type="radio" name="choice5" value="0">
+					<label for="ch1">В говядине</label>
+					</div>
+	
+					<div>
+					<input type="radio" name="choice5" value="1">
+					<label for="ch2">В свинине</label>
+					</div>
+	
+					<div>
+					<input type="radio" name="choice5" value="0">
+					<label for="ch3">В баранине</label>
+					</div>
+
+				</div>
+
+					<div class="result1">
+					<p>
+						<input class="calc" type="button" id="calc" value="Подсчитать результаты">
+						<input class="reset" type="reset" value="Сброс">
+					</div>
+					<div class="result2">
+					  </p>
+						Итого баллов: <input type="text" name="result" readonly>
+					</div>
+				</form>
+
+				<a href="#header" class="btn-close">Х</a>
 			</div>
 			
+			<div class="overlay">
+
+			</div>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

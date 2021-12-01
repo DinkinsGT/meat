@@ -52,4 +52,11 @@ $(function() {
 		
 	});
 
+	calc.onclick = function(){
+		var myform = this.form;
+		myform.result.value = +myform.choice1.value + +myform.choice2.value + +myform.choice3.value + +myform.choice4.value + +myform.choice5.value;
+	}
+
+
+
 });
