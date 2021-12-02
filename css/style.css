@@ -321,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	z-index: 1100;
 	width: 550px;
+	height: 800px;
 	border-radius: 10px;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
 	background-color: #fff;
