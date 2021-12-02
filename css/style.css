@@ -291,7 +291,8 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(0, 0, 0, .4);
 	opacity: 0;
 	visibility: hidden;
-	overflow: scroll;
+	overflow-y:auto;
+	overflow-x: hidden;
 
 }
 
@@ -323,8 +324,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	z-index: 1100;
 	width: 550px;
-	height: 400px;
-	top: 0;
+	height: 600px;
 	border-radius: 10px;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
 	background-color: #fff;
