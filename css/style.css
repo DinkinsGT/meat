@@ -291,8 +291,12 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(0, 0, 0, .4);
 	opacity: 0;
 	visibility: hidden;
-	overflow-y: auto;
 	overflow-x: hidden;
+<<<<<<< HEAD
+=======
+	overflow-y: auto;
+	overflow: hidden;
+>>>>>>> a550f67b32bad8210c0e0199979ef3f0aef8db82
 }
 
 .modal:target {
@@ -323,11 +327,17 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	z-index: 1100;
 	width: 550px;
-	top: 30%;
+	height: 800px;
 	border-radius: 10px;
 	box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
 	background-color: #fff;
 	padding: 20px;
+<<<<<<< HEAD
+=======
+	overflow-y:auto;
+	overflow-x: hidden;
+	overflow: hidden;
+>>>>>>> a550f67b32bad8210c0e0199979ef3f0aef8db82
 }
 
 .modal-title {
